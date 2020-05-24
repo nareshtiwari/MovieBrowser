@@ -192,13 +192,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fR1-yt-bjT" customClass="RoundedImageView" customModule="MovieBrowser" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="44" width="375" height="330"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="300"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="330" id="V64-dB-lJd"/>
+                                    <constraint firstAttribute="height" constant="300" id="V64-dB-lJd"/>
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oyn-YF-9IW">
-                                <rect key="frame" x="0.0" y="44" width="375" height="330"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="300"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_rating_star" translatesAutoresizingMaskIntoConstraints="NO" id="UAP-gm-2ni">
                                         <rect key="frame" x="342" y="8" width="25" height="25"/>
@@ -208,7 +208,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JdO-48-XcB">
-                                        <rect key="frame" x="10" y="320" width="355" height="0.0"/>
+                                        <rect key="frame" x="10" y="290" width="355" height="0.0"/>
                                         <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="26"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -245,7 +245,7 @@
                                     <constraint firstItem="GcM-e6-u7S" firstAttribute="leading" secondItem="Oyn-YF-9IW" secondAttribute="leading" id="P5V-ag-1Wu"/>
                                     <constraint firstItem="WZw-DH-vSC" firstAttribute="leading" secondItem="Oyn-YF-9IW" secondAttribute="leading" constant="10" id="Qlr-nG-m5t"/>
                                     <constraint firstAttribute="trailing" secondItem="UAP-gm-2ni" secondAttribute="trailing" constant="8" id="Sde-vb-YjS"/>
-                                    <constraint firstAttribute="height" constant="330" id="Uyk-V8-7la"/>
+                                    <constraint firstAttribute="height" constant="300" id="Uyk-V8-7la"/>
                                     <constraint firstItem="GcM-e6-u7S" firstAttribute="top" secondItem="Oyn-YF-9IW" secondAttribute="top" id="Xt1-9k-Xxu"/>
                                     <constraint firstItem="WZw-DH-vSC" firstAttribute="top" secondItem="Oyn-YF-9IW" secondAttribute="top" constant="10" id="Yt9-xH-VK6"/>
                                     <constraint firstAttribute="bottom" secondItem="JdO-48-XcB" secondAttribute="bottom" constant="10" id="cOk-y0-ZJQ"/>
@@ -254,7 +254,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EM6-zc-ToZ" customClass="RoundedView" customModule="MovieBrowser" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="374" width="375" height="35"/>
+                                <rect key="frame" x="0.0" y="344" width="375" height="35"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BUR-nO-0ks">
                                         <rect key="frame" x="10" y="17.666666666666686" width="0.0" height="0.0"/>
@@ -293,13 +293,13 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plot Synopsis:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ZU-MP-PUe">
-                                <rect key="frame" x="10.000000000000007" y="417" width="113.66666666666669" height="21"/>
+                                <rect key="frame" x="10.000000000000007" y="387" width="113.66666666666669" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgc-10-NAa">
-                                <rect key="frame" x="10" y="443" width="355" height="0.0"/>
+                                <rect key="frame" x="10" y="413" width="355" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
