@@ -25,7 +25,7 @@ class MovieCollectionCell: UICollectionViewCell {
         else{
           urlString =  URLConstants.imageBaseUrl + movieInfo.backdrop_path
         }
-        moviePosterImg.loadMovieThumbnai(imageUrl: urlString)
+        moviePosterImg.loadMovieThumbnail(imageUrl: urlString)
     }
     
 }

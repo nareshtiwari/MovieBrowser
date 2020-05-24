@@ -67,7 +67,7 @@ class MovieDetailController: UIViewController {
         
         movieTitleLbl.text = movieDetailModel!.original_title
         let thumbnailUrl =  URLConstants.imageBaseUrl + movieDetailModel!.backdrop_path
-        movieThumbnailImg.loadMovieThumbnai(imageUrl:thumbnailUrl)
+        movieThumbnailImg.loadMovieThumbnail(imageUrl:thumbnailUrl)
         if movieDetailModel!.status == ResponseKey.released.rawValue{
             releaseLbl.text = "Released On:"
             releaseDateLbl.text = movieDetailModel!.release_date

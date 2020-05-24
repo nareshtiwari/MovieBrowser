@@ -65,7 +65,7 @@ import Kingfisher
         super.init(frame: frame)
     }
 
-    func loadMovieThumbnai(imageUrl:String?) {
+    func loadMovieThumbnail(imageUrl:String?) {
         var movieThumbnailUrl: URL?        
         if imageUrl != nil{
             if imageUrl != ""{
