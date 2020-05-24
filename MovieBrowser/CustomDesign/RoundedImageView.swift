@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import Kingfisher
 
 @IBDesignable class RoundedImageView : UIImageView {
     @IBInspectable var cornerRadius : CGFloat = 0.0{
@@ -62,5 +63,27 @@ import UIKit
     }
     override init(frame: CGRect) {
         super.init(frame: frame)
+    }
+
+    func loadMovieThumbnai(imageUrl:String?) {
+        var movieThumbnailUrl: URL?        
+        if imageUrl != nil{
+            if imageUrl != ""{
+                movieThumbnailUrl = URL(string: imageUrl!)!
+                
+                if movieThumbnailUrl?.scheme != nil && movieThumbnailUrl?.host != nil {
+                    
+                } else {
+                    
+                    movieThumbnailUrl = URL(string:imageUrl!)!
+                }
+                
+                self.kf.setImage(with: movieThumbnailUrl!)
+                
+            }
+            
+        } else {
+        }
+        
     }
 }

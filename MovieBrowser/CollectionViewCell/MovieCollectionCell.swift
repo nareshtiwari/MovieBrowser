@@ -15,4 +15,17 @@ class MovieCollectionCell: UICollectionViewCell {
         super.awakeFromNib()
     }
 
+    func loadMovieData(movieInfo:MovieModel) {
+        moviePosterImg.image = nil
+        movieTitleLbl.text = movieInfo.original_title
+        let urlString:String?
+        if movieInfo.poster_path != ""{
+          urlString =  URLConstants.imageBaseUrl + movieInfo.poster_path
+        }
+        else{
+          urlString =  URLConstants.imageBaseUrl + movieInfo.backdrop_path
+        }
+        moviePosterImg.loadMovieThumbnai(imageUrl: urlString)
+    }
+    
 }
