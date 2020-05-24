@@ -35,7 +35,7 @@ class MovieDetailController: UIViewController {
         self.navigationController?.popViewController(animated: true)
     }
     
-    //MARK:- Method for get movie detail API
+    //MARK:- Method for call movie detail API
     func getMovieDetails(){
        
         let token = UserDefaults.standard.object(forKey: UserDefaultKey.apiToken.rawValue) as! String?
