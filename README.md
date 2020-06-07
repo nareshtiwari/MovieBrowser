@@ -7,13 +7,13 @@ Used MVC Design Pattern
 Language Swift 5.0
 
 
-*****Discover Movie Screen:--
+#Discover Movie Screen
 
 ![HomeScreen](https://user-images.githubusercontent.com/31617973/83964731-8700e900-a8cc-11ea-8f51-ec21cf4b0f69.png)
 
 
 
-*****Movie Sort Action Sheet:--
+#Movie Sort Action Sheet
 
 ![SortAction](https://user-images.githubusercontent.com/31617973/83964789-f971c900-a8cc-11ea-8bd1-cab66a7b74b8.png)
 
