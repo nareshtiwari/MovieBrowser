@@ -1,6 +1,8 @@
 # MovieBrowser
-Movie browser is used for search most popular movies and highest rating movie
-used MVC Design Pattern
+Movie browser is used for search most popular movies and highest rating movie.
+it is an iOS application.
+
+Used MVC Design Pattern
 Language Swift 5.0
 
 
