@@ -1,7 +1,7 @@
 # MovieBrowser
 Movie browser is used for search most popular movies and highest rating movie
 
-![HomeScreen](https://user-images.githubusercontent.com/31617973/83964731-8700e900-a8cc-11ea-8f51-ec21cf4b0f69.png)
+(https://user-images.githubusercontent.com/31617973/83964731-8700e900-a8cc-11ea-8f51-ec21cf4b0f69.png)
 ![MovieDetailScreen](https://user-images.githubusercontent.com/31617973/83964783-ee1e9d80-a8cc-11ea-82d3-081181b42b4a.png)
 ![SortAction](https://user-images.githubusercontent.com/31617973/83964789-f971c900-a8cc-11ea-8bd1-cab66a7b74b8.png)
 ![SearchScreen](https://user-images.githubusercontent.com/31617973/83964797-02629a80-a8cd-11ea-8538-9f001cfb9896.png)
